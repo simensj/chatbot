@@ -1,4 +1,4 @@
-onload(alert("hei"))
+//onload(alert("hei"))
 
 function send_user_input() {
     var user_input = document.getElementById("chatbot_input_field").value;
