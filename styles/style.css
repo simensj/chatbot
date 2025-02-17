@@ -1,0 +1,103 @@
+/* Chat messages container */
+#chat_dialog_field {
+    position: fixed;
+    bottom: 80px; /* Adjusted to be above the input field */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Midpoint width for mobile layout */
+    max-width: 500px; /* Max width for larger screens */
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2A0E3D;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    z-index: 1; /* Ensure the chat field stays on top of other content */
+}
+
+/* Chat input box - Fixed at bottom center */
+#chatbot_input_div {
+    position: fixed;
+    bottom: 20px; /* Distance from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Midpoint width for mobile layout */
+    max-width: 500px; /* Max width for larger screens */
+    padding: 10px; /* Padding remains the same */
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Chat input field */
+#chatbot_input_field {
+    color: #ffffff;
+    background-color: #38144E;
+    width: 100%;
+    min-height: 40px;
+    max-height: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    overflow: hidden;
+    line-height: 1;
+    font-size: 18px; /* Font size slightly larger for clarity */
+}
+
+/* Send button */
+button {
+    background-color: #efe5f7;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* General chat message bubble */
+.chat_message {
+    max-width: 80%; /* Less wide bubbles */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/* User message container - Right-aligned */
+.user_message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* User speech bubble */
+.user_bubble {
+    background-color: #6A0DAD;
+    align-self: flex-end;
+}
+
+/* Bot message container - Left-aligned */
+.bot_message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Bot speech bubble */
+.bot_bubble {
+    background-color: #444;
+    align-self: flex-start;
+}
+
+/* Body background */
+body {
+    background-color: #1F0E2F;
+    margin: 0;
+    padding-bottom: 80px; /* Prevent input field from being hidden */
+}
