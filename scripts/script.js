@@ -1,4 +1,3 @@
-onload(alert("test"))
 document.getElementById("chatbot_input_field").addEventListener("keydown", function(event) {
     if (event.key === "Enter" && !event.shiftKey) {
         event.preventDefault(); // Prevents a new line in the textarea
