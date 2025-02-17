@@ -1,4 +1,11 @@
-onload(alert("hei"))
+//onload(alert("hei"))
+
+document.getElementById("chatbot_input_field").addEventListener("keydown", function(event) {
+    if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault(); // Prevents a new line in the textarea
+        send_user_input();
+    }
+});
 
 function send_user_input() {
     var user_input = document.getElementById("chatbot_input_field").value;
