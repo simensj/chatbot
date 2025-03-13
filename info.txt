@@ -1,0 +1,6 @@
+KI forordningen klassifiserer fire risikonivåer.
+Nivå 1: minimal risiko (epost spam filtrering og KI basert spill. Disse trenger ingen regulering
+Nivå 2: begrenset risiko: inneholder for det meste chatbots, regulering-regelen er åpenhet (brukeren er klar over at de snakker med KI.
+Nivå 3: høy risiko: selv-kjørende kjøretøy, KI i helsevesen/kirurgi, utdanning (KI basert eksamens-retting/vurdering, må være rettferdig), KI basert offentlig overvåkning (må være i henhold til personvern, unngå falske alarmer). Må igjennom en grundig risikovurdering, bruke data av høy kvalitet og uten bias, opprettholde detaljerte logger, alltid ha et menneske som tar over når det trengs.
+Nivå 4: uakseptabel risiko: livsrisikerende KI systemer som sosiale poengsystemer (kina). Disse er forbudt.
+Forordningen omfatter en bred definisjon av kunstig intelligens (KI), i et bredt spekter av sektorer. Et viktig unntak er AI-systemer som brukes utelukkende til militære formål, nasjonale sikkerhet, forskning og ikke-profesjonelle formål)(https://no.wikipedia.org/wiki/EU-forordningen_om_kunstig_intelligens)
